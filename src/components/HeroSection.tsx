@@ -43,7 +43,7 @@ export const HeroSection = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-heading leading-tight mb-6"
+            className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-6"
           >
             Sua Revenda Agro Aberta 24h:{" "}
             <span className="relative">
@@ -70,10 +70,10 @@ export const HeroSection = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-lg md:text-xl text-body max-w-2xl mx-auto mb-10"
+            className="text-lg md:text-xl text-white max-w-2xl mx-auto mb-10"
           >
             Atendimento imediato, compreensão de áudios com barulho de máquina e integração com estoque.{" "}
-            <span className="font-semibold text-heading">Sem funcionários extras, sem erro humano.</span>
+            <span className="font-semibold text-primary">Sem funcionários extras, sem erro humano.</span>
           </motion.p>
 
           {/* CTA Buttons */}
@@ -98,7 +98,7 @@ export const HeroSection = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.5 }}
-            className="flex flex-wrap items-center justify-center gap-6 text-sm text-body"
+            className="flex flex-wrap items-center justify-center gap-6 text-sm text-white"
           >
             <div className="flex items-center gap-2">
               <CheckCircle className="w-4 h-4 text-primary" />
