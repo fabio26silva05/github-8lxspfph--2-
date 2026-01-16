@@ -22,7 +22,7 @@ export const Footer = () => {
 
           {/* Copyright */}
           <p className="text-sm text-body">
-            © 2024 Vaptia Soluções. Todos os direitos reservados.
+            © 2026 Vaptia Soluções. Todos os direitos reservados.
           </p>
 
           {/* Links */}
