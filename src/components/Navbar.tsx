@@ -52,7 +52,7 @@ export const Navbar = () => {
           </div>
 
           {/* CTA Button */}
-         <a href="https://wa.me/5566996767725?text=Ol%C3%A1%2C%20vim%20pelo%20site" target="_blank">
+         <a href="https://wa.me/5566997178650?text=Ol%C3%A1%2C%20vim%20pelo%20site" target="_blank">
             <Button size="lg" className="font-semibold shadow-primary">
               <MessageCircle className="w-4 h-4 mr-2" />
               Falar com a IA
@@ -94,7 +94,7 @@ export const Navbar = () => {
                   {link.label}
                 </a>
               ))}
-            <a href="https://wa.me/5566996767725?text=Ol%C3%A1%2C%20vim%20pelo%20site" target="_blank" className="w-full block">
+            <a href="https://wa.me/5566997178650?text=Ol%C3%A1%2C%20vim%20pelo%20site" target="_blank" className="w-full block">
             <Button size="lg" className="w-full font-semibold shadow-primary">
               <MessageCircle className="w-4 h-4 mr-2" />
               Falar com a IA
